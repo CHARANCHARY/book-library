@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.header{
+  min-height: 75vh;
+  background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("./images//book-library-with-open-textbook.jpg") center/cover no-repeat;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text{
+  text-align: center;
+  padding-left: 10rem;
+  padding-bottom: 6rem;
+  padding-right: 10rem;
+  line-height: 3rem;
+}
+
+
+.header-title{
+  font-size: 4.2rem;
+  padding-top: 12rem;
+}
+
+
+
+.search-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-form-elem{
+  padding: 1.4rem 2.8rem;
+  border-radius: 3.8rem;
+}
+.search-form-elem .form-control{
+  font-size: 1.5rem;
+  padding: 0.6rem;
+}
+.search-form-elem .form-control::placeholder{
+  opacity: 0.9;
+}
+
+.form-control{
+  width: 100%;
+}
+
+
+.book-card{
+  background-color: aqua;
+  align-self: center;
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.book-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: -50%;
+  margin-left: 20%;
+}
+
+.book-details{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
